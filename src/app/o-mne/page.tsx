@@ -1,7 +1,16 @@
-import  Typography from "@mui/material/Typography";
+// src/app/o-mne/page.tsx
 
-export default function About() {
+
+import Typography from "@mui/material/Typography";
+import Container from "@mui/material/Container";
+
+export const metadata = { title: "o-mne | ZoškaSnap" };
+
+export default function AboutMe() {
+
   return (
-    <Typography>stranka o mne</Typography>
+    <Container>
+      <Typography> o mne </Typography>
+    </Container>
   );
 }
