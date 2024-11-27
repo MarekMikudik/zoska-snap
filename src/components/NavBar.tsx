@@ -26,7 +26,7 @@ export default function Navbar() {
       >
         <BottomNavigationAction label="Domov" value="/" icon={<HomeIcon />} />
         <BottomNavigationAction label="Profily" value="/profil" icon={<AccountCircleIcon />} />
-        <BottomNavigationAction label="Príspevky" value="/prispevok" icon={<AddCircleIcon />} />
+        <BottomNavigationAction label="Príspevky" value="/prispevky" icon={<AddCircleIcon />} />
         <BottomNavigationAction label="o mne" value="/o-mne" icon={<InfoIcon />} />
       </BottomNavigation>
     </Box>
